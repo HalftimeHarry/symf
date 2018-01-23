@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <a class="btn btn-default" href='/'>Back to List</a>
+    <hr>
+    <h2 class="page-header">{{stadium.name}}</h2>
+    <ul class="list-group">
+        <li class="list-group-item">Surface:{{stadium.surface}}</li>
+        <li class="list-group-item">Imported Score:{{stadium.importedScore}}</li>
+        <li class="list-group-item">Imported Score Two:{{stadium.importedScoreTwo}}</li>
+        <li class="list-group-item">Imported Score Three:{{stadium.importedScoreThree}}</li>
+        <li class="list-group-item">Imported Score Four:{{stadium.importedScoreFour}}</li>
+        <li class="list-group-item">Imported Score Five:{{stadium.importedScoreFive}}</li>
+        <li class="list-group-item">Imported Score Six:{{stadium.importedScoreSix}}</li>
+        <li class="list-group-item">Imported Score Seven:{{stadium.importedScoreSeven}}</li>
+        <li class="list-group-item">Calculated Score:{{stadium.calculatedScore}}</li>
+    </ul>
+{% endblock %}

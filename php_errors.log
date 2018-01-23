@@ -1,0 +1,340 @@
+[21-Jun-2017 07:09:12 UTC] PHP Fatal error:  Call to undefined method Doctrine\ORM\EntityManager::presist() in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 54
+[21-Jun-2017 07:09:12 UTC] PHP Stack trace:
+[21-Jun-2017 07:09:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[21-Jun-2017 07:09:12 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[21-Jun-2017 07:09:12 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[21-Jun-2017 07:09:12 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[21-Jun-2017 07:09:12 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[21-Jun-2017 07:09:12 UTC] PHP   6. AppBundle\Controller\SymfController->createAction() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[25-Jun-2017 03:41:07 UTC] PHP Fatal error:  Call to a member function setCalculatedScore() on a non-object in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 107
+[25-Jun-2017 03:41:07 UTC] PHP Stack trace:
+[25-Jun-2017 03:41:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[25-Jun-2017 03:41:07 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[25-Jun-2017 03:41:07 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[25-Jun-2017 03:41:07 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[25-Jun-2017 03:41:07 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[25-Jun-2017 03:41:07 UTC] PHP   6. AppBundle\Controller\SymfController->editAction() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[25-Jun-2017 03:41:12 UTC] PHP Fatal error:  Call to a member function setCalculatedScore() on a non-object in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 107
+[25-Jun-2017 03:41:12 UTC] PHP Stack trace:
+[25-Jun-2017 03:41:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[25-Jun-2017 03:41:12 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[25-Jun-2017 03:41:12 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[25-Jun-2017 03:41:12 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[25-Jun-2017 03:41:12 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[25-Jun-2017 03:41:12 UTC] PHP   6. AppBundle\Controller\SymfController->editAction() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[25-Jun-2017 03:41:19 UTC] PHP Fatal error:  Call to a member function setCalculatedScore() on a non-object in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 107
+[25-Jun-2017 03:41:19 UTC] PHP Stack trace:
+[25-Jun-2017 03:41:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[25-Jun-2017 03:41:19 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[25-Jun-2017 03:41:19 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[25-Jun-2017 03:41:19 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[25-Jun-2017 03:41:19 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[25-Jun-2017 03:41:19 UTC] PHP   6. AppBundle\Controller\SymfController->editAction() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[25-Jun-2017 03:45:29 UTC] PHP Fatal error:  Call to a member function setCalculatedScore() on a non-object in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 107
+[25-Jun-2017 03:45:29 UTC] PHP Stack trace:
+[25-Jun-2017 03:45:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[25-Jun-2017 03:45:29 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[25-Jun-2017 03:45:29 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[25-Jun-2017 03:45:29 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[25-Jun-2017 03:45:29 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[25-Jun-2017 03:45:29 UTC] PHP   6. AppBundle\Controller\SymfController->editAction() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[28-Jun-2017 20:09:15 UTC] PHP Fatal error:  Call to undefined method AppBundle\Entity\Stadium::getImportedScoreSix() in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 104
+[28-Jun-2017 20:09:15 UTC] PHP Stack trace:
+[28-Jun-2017 20:09:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[28-Jun-2017 20:09:15 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[28-Jun-2017 20:09:15 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[28-Jun-2017 20:09:15 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[28-Jun-2017 20:09:15 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[28-Jun-2017 20:09:15 UTC] PHP   6. AppBundle\Controller\SymfController->editAction() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[28-Jun-2017 20:09:19 UTC] PHP Fatal error:  Call to undefined method AppBundle\Entity\Stadium::getImportedScoreSix() in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 104
+[28-Jun-2017 20:09:19 UTC] PHP Stack trace:
+[28-Jun-2017 20:09:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[28-Jun-2017 20:09:19 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[28-Jun-2017 20:09:19 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[28-Jun-2017 20:09:19 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[28-Jun-2017 20:09:19 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[28-Jun-2017 20:09:19 UTC] PHP   6. AppBundle\Controller\SymfController->editAction() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[28-Jun-2017 20:09:50 UTC] PHP Fatal error:  Call to undefined method AppBundle\Entity\Stadium::getImportedScoreSix() in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 104
+[28-Jun-2017 20:09:50 UTC] PHP Stack trace:
+[28-Jun-2017 20:09:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[28-Jun-2017 20:09:50 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[28-Jun-2017 20:09:50 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[28-Jun-2017 20:09:50 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[28-Jun-2017 20:09:50 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[28-Jun-2017 20:09:50 UTC] PHP   6. AppBundle\Controller\SymfController->editAction() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[28-Jun-2017 20:09:57 UTC] PHP Fatal error:  Call to undefined method AppBundle\Entity\Stadium::getImportedScoreSix() in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 104
+[28-Jun-2017 20:09:57 UTC] PHP Stack trace:
+[28-Jun-2017 20:09:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[28-Jun-2017 20:09:57 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[28-Jun-2017 20:09:57 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[28-Jun-2017 20:09:57 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[28-Jun-2017 20:09:57 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[28-Jun-2017 20:09:57 UTC] PHP   6. AppBundle\Controller\SymfController->editAction() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[28-Jun-2017 20:12:17 UTC] PHP Fatal error:  Call to undefined method AppBundle\Entity\Stadium::getImportedScoreSix() in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 104
+[28-Jun-2017 20:12:17 UTC] PHP Stack trace:
+[28-Jun-2017 20:12:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[28-Jun-2017 20:12:17 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[28-Jun-2017 20:12:17 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[28-Jun-2017 20:12:17 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[28-Jun-2017 20:12:17 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[28-Jun-2017 20:12:17 UTC] PHP   6. AppBundle\Controller\SymfController->editAction() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[28-Jun-2017 20:24:17 UTC] PHP Fatal error:  Call to undefined method AppBundle\Entity\Stadium::setCalculatedScoreTwo() in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 153
+[28-Jun-2017 20:24:17 UTC] PHP Stack trace:
+[28-Jun-2017 20:24:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[28-Jun-2017 20:24:17 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[28-Jun-2017 20:24:17 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[28-Jun-2017 20:24:17 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[28-Jun-2017 20:24:17 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[28-Jun-2017 20:24:17 UTC] PHP   6. AppBundle\Controller\SymfController->editAction() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[06-Jul-2017 14:45:48 UTC] PHP Fatal error:  Class 'AppBundle\Controller\Team' not found in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 214
+[06-Jul-2017 14:45:48 UTC] PHP Stack trace:
+[06-Jul-2017 14:45:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[06-Jul-2017 14:45:48 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[06-Jul-2017 14:45:48 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[06-Jul-2017 14:45:48 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[06-Jul-2017 14:45:48 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[06-Jul-2017 14:45:48 UTC] PHP   6. AppBundle\Controller\SymfController->createTeam() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[06-Jul-2017 15:05:04 UTC] PHP Fatal error:  Class 'AppBundle\Controller\Team' not found in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 214
+[06-Jul-2017 15:05:04 UTC] PHP Stack trace:
+[06-Jul-2017 15:05:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[06-Jul-2017 15:05:04 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[06-Jul-2017 15:05:04 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[06-Jul-2017 15:05:04 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[06-Jul-2017 15:05:04 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[06-Jul-2017 15:05:04 UTC] PHP   6. AppBundle\Controller\SymfController->createTeam() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[07-Jul-2017 01:46:48 UTC] PHP Fatal error:  Call to a member function setName() on a non-object in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 268
+[07-Jul-2017 01:46:48 UTC] PHP Stack trace:
+[07-Jul-2017 01:46:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[07-Jul-2017 01:46:48 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[07-Jul-2017 01:46:48 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[07-Jul-2017 01:46:48 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[07-Jul-2017 01:46:48 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[07-Jul-2017 01:46:48 UTC] PHP   6. AppBundle\Controller\SymfController->createGame() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[07-Jul-2017 02:46:42 UTC] PHP Fatal error:  Call to a member function setName() on a non-object in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 269
+[07-Jul-2017 02:46:42 UTC] PHP Stack trace:
+[07-Jul-2017 02:46:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[07-Jul-2017 02:46:42 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[07-Jul-2017 02:46:42 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[07-Jul-2017 02:46:42 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[07-Jul-2017 02:46:42 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[07-Jul-2017 02:46:42 UTC] PHP   6. AppBundle\Controller\SymfController->createGame() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[07-Jul-2017 02:59:15 UTC] PHP Fatal error:  Call to a member function setName() on a non-object in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 269
+[07-Jul-2017 02:59:15 UTC] PHP Stack trace:
+[07-Jul-2017 02:59:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[07-Jul-2017 02:59:15 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[07-Jul-2017 02:59:15 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[07-Jul-2017 02:59:15 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[07-Jul-2017 02:59:15 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[07-Jul-2017 02:59:15 UTC] PHP   6. AppBundle\Controller\SymfController->createGame() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[07-Jul-2017 03:58:18 UTC] PHP Fatal error:  Call to a member function setName() on a non-object in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 266
+[07-Jul-2017 03:58:18 UTC] PHP Stack trace:
+[07-Jul-2017 03:58:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[07-Jul-2017 03:58:18 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[07-Jul-2017 03:58:18 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[07-Jul-2017 03:58:18 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[07-Jul-2017 03:58:18 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[07-Jul-2017 03:58:18 UTC] PHP   6. AppBundle\Controller\SymfController->createGame() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[07-Jul-2017 04:00:00 UTC] PHP Fatal error:  Call to a member function setName() on a non-object in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 266
+[07-Jul-2017 04:00:00 UTC] PHP Stack trace:
+[07-Jul-2017 04:00:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[07-Jul-2017 04:00:00 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[07-Jul-2017 04:00:00 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[07-Jul-2017 04:00:00 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[07-Jul-2017 04:00:00 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[07-Jul-2017 04:00:00 UTC] PHP   6. AppBundle\Controller\SymfController->createGame() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[07-Jul-2017 12:40:59 UTC] PHP Fatal error:  Call to a member function getNames() on a non-object in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 261
+[07-Jul-2017 12:40:59 UTC] PHP Stack trace:
+[07-Jul-2017 12:40:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[07-Jul-2017 12:40:59 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[07-Jul-2017 12:40:59 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[07-Jul-2017 12:40:59 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[07-Jul-2017 12:40:59 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[07-Jul-2017 12:40:59 UTC] PHP   6. AppBundle\Controller\SymfController->createGame() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[07-Jul-2017 12:41:50 UTC] PHP Fatal error:  Call to a member function getName() on a non-object in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 261
+[07-Jul-2017 12:41:50 UTC] PHP Stack trace:
+[07-Jul-2017 12:41:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[07-Jul-2017 12:41:50 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[07-Jul-2017 12:41:50 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[07-Jul-2017 12:41:50 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[07-Jul-2017 12:41:50 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[07-Jul-2017 12:41:50 UTC] PHP   6. AppBundle\Controller\SymfController->createGame() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[07-Jul-2017 12:42:42 UTC] PHP Fatal error:  Call to undefined method AppBundle\Controller\SymfController::getName() in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 261
+[07-Jul-2017 12:42:42 UTC] PHP Stack trace:
+[07-Jul-2017 12:42:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[07-Jul-2017 12:42:42 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[07-Jul-2017 12:42:42 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[07-Jul-2017 12:42:42 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[07-Jul-2017 12:42:42 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[07-Jul-2017 12:42:42 UTC] PHP   6. AppBundle\Controller\SymfController->createGame() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[07-Jul-2017 13:00:54 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 263
+[07-Jul-2017 13:00:54 UTC] PHP Stack trace:
+[07-Jul-2017 13:00:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[07-Jul-2017 13:00:54 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[07-Jul-2017 13:00:54 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:168
+[07-Jul-2017 13:00:54 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:119
+[07-Jul-2017 13:00:54 UTC] PHP   5. Symfony\Component\Config\ConfigCache->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:540
+[07-Jul-2017 13:00:54 UTC] PHP   6. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/ubuntu/workspace/var/cache/prod/classes.php:2966
+[07-Jul-2017 13:00:54 UTC] PHP   7. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh() /home/ubuntu/workspace/var/cache/prod/classes.php:2916
+[07-Jul-2017 13:00:54 UTC] PHP   8. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceChecker.php:34
+[07-Jul-2017 13:00:54 UTC] PHP   9. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:45
+[07-Jul-2017 13:00:54 UTC] PHP  10. ReflectionClass->__construct() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[07-Jul-2017 13:00:54 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[07-Jul-2017 13:00:54 UTC] PHP  12. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[07-Jul-2017 13:00:54 UTC] PHP  13. Composer\Autoload\includeFile() /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[07-Jul-2017 15:16:25 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')' in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 266
+[07-Jul-2017 15:16:25 UTC] PHP Stack trace:
+[07-Jul-2017 15:16:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[07-Jul-2017 15:16:25 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[07-Jul-2017 15:16:25 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:168
+[07-Jul-2017 15:16:25 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:119
+[07-Jul-2017 15:16:25 UTC] PHP   5. Symfony\Component\Config\ConfigCache->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:540
+[07-Jul-2017 15:16:25 UTC] PHP   6. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/ubuntu/workspace/var/cache/prod/classes.php:2966
+[07-Jul-2017 15:16:25 UTC] PHP   7. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh() /home/ubuntu/workspace/var/cache/prod/classes.php:2916
+[07-Jul-2017 15:16:25 UTC] PHP   8. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceChecker.php:34
+[07-Jul-2017 15:16:25 UTC] PHP   9. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:45
+[07-Jul-2017 15:16:25 UTC] PHP  10. ReflectionClass->__construct() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[07-Jul-2017 15:16:25 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[07-Jul-2017 15:16:25 UTC] PHP  12. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[07-Jul-2017 15:16:25 UTC] PHP  13. Composer\Autoload\includeFile() /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[07-Jul-2017 15:17:24 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 266
+[07-Jul-2017 15:17:24 UTC] PHP Stack trace:
+[07-Jul-2017 15:17:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[07-Jul-2017 15:17:24 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[07-Jul-2017 15:17:24 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:168
+[07-Jul-2017 15:17:24 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:119
+[07-Jul-2017 15:17:24 UTC] PHP   5. Symfony\Component\Config\ConfigCache->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:540
+[07-Jul-2017 15:17:24 UTC] PHP   6. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/ubuntu/workspace/var/cache/prod/classes.php:2966
+[07-Jul-2017 15:17:24 UTC] PHP   7. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh() /home/ubuntu/workspace/var/cache/prod/classes.php:2916
+[07-Jul-2017 15:17:24 UTC] PHP   8. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceChecker.php:34
+[07-Jul-2017 15:17:24 UTC] PHP   9. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:45
+[07-Jul-2017 15:17:24 UTC] PHP  10. ReflectionClass->__construct() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[07-Jul-2017 15:17:24 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[07-Jul-2017 15:17:24 UTC] PHP  12. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[07-Jul-2017 15:17:24 UTC] PHP  13. Composer\Autoload\includeFile() /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[07-Jul-2017 23:02:48 UTC] PHP Fatal error:  Call to a member function setName() on a non-object in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 275
+[07-Jul-2017 23:02:48 UTC] PHP Stack trace:
+[07-Jul-2017 23:02:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[07-Jul-2017 23:02:48 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[07-Jul-2017 23:02:48 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[07-Jul-2017 23:02:48 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[07-Jul-2017 23:02:48 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[07-Jul-2017 23:02:48 UTC] PHP   6. AppBundle\Controller\SymfController->createGame() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[09-Jul-2017 02:13:45 UTC] PHP Fatal error:  Call to a member function setName() on a non-object in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 288
+[09-Jul-2017 02:13:45 UTC] PHP Stack trace:
+[09-Jul-2017 02:13:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[09-Jul-2017 02:13:45 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[09-Jul-2017 02:13:45 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[09-Jul-2017 02:13:45 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[09-Jul-2017 02:13:45 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[09-Jul-2017 02:13:45 UTC] PHP   6. AppBundle\Controller\SymfController->createGame() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[09-Jul-2017 02:24:10 UTC] PHP Fatal error:  Cannot access private property AppBundle\Entity\Team::$id in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 286
+[09-Jul-2017 02:24:10 UTC] PHP Stack trace:
+[09-Jul-2017 02:24:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[09-Jul-2017 02:24:10 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[09-Jul-2017 02:24:10 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[09-Jul-2017 02:24:10 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[09-Jul-2017 02:24:10 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[09-Jul-2017 02:24:10 UTC] PHP   6. AppBundle\Controller\SymfController->createGame() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[09-Jul-2017 05:34:11 UTC] PHP Fatal error:  Call to a member function persist() on a non-object in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 290
+[09-Jul-2017 05:34:11 UTC] PHP Stack trace:
+[09-Jul-2017 05:34:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[09-Jul-2017 05:34:11 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[09-Jul-2017 05:34:11 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[09-Jul-2017 05:34:11 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[09-Jul-2017 05:34:11 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[09-Jul-2017 05:34:11 UTC] PHP   6. AppBundle\Controller\SymfController->createGame() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[09-Jul-2017 05:34:16 UTC] PHP Fatal error:  Call to a member function persist() on a non-object in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 290
+[09-Jul-2017 05:34:16 UTC] PHP Stack trace:
+[09-Jul-2017 05:34:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[09-Jul-2017 05:34:16 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[09-Jul-2017 05:34:16 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[09-Jul-2017 05:34:16 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[09-Jul-2017 05:34:16 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[09-Jul-2017 05:34:16 UTC] PHP   6. AppBundle\Controller\SymfController->createGame() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[09-Jul-2017 05:35:37 UTC] PHP Fatal error:  Call to a member function persist() on a non-object in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 290
+[09-Jul-2017 05:35:37 UTC] PHP Stack trace:
+[09-Jul-2017 05:35:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[09-Jul-2017 05:35:37 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[09-Jul-2017 05:35:37 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[09-Jul-2017 05:35:37 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[09-Jul-2017 05:35:37 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[09-Jul-2017 05:35:37 UTC] PHP   6. AppBundle\Controller\SymfController->createGame() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[09-Jul-2017 06:49:01 UTC] PHP Fatal error:  Cannot use object of type AppBundle\Entity\Stadium as array in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 300
+[09-Jul-2017 06:49:01 UTC] PHP Stack trace:
+[09-Jul-2017 06:49:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[09-Jul-2017 06:49:01 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[09-Jul-2017 06:49:01 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[09-Jul-2017 06:49:01 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[09-Jul-2017 06:49:01 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[09-Jul-2017 06:49:01 UTC] PHP   6. AppBundle\Controller\SymfController->createGame() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[09-Jul-2017 06:51:27 UTC] PHP Fatal error:  Cannot use object of type AppBundle\Entity\Stadium as array in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 300
+[09-Jul-2017 06:51:27 UTC] PHP Stack trace:
+[09-Jul-2017 06:51:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[09-Jul-2017 06:51:27 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[09-Jul-2017 06:51:27 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[09-Jul-2017 06:51:27 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[09-Jul-2017 06:51:27 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[09-Jul-2017 06:51:27 UTC] PHP   6. AppBundle\Controller\SymfController->createGame() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[09-Jul-2017 06:51:55 UTC] PHP Fatal error:  Cannot use object of type AppBundle\Entity\Stadium as array in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 300
+[09-Jul-2017 06:51:55 UTC] PHP Stack trace:
+[09-Jul-2017 06:51:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[09-Jul-2017 06:51:55 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[09-Jul-2017 06:51:55 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[09-Jul-2017 06:51:55 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[09-Jul-2017 06:51:55 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[09-Jul-2017 06:51:55 UTC] PHP   6. AppBundle\Controller\SymfController->createGame() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[09-Jul-2017 06:52:12 UTC] PHP Fatal error:  Cannot use object of type AppBundle\Entity\Stadium as array in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 300
+[09-Jul-2017 06:52:12 UTC] PHP Stack trace:
+[09-Jul-2017 06:52:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[09-Jul-2017 06:52:12 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[09-Jul-2017 06:52:12 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[09-Jul-2017 06:52:12 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[09-Jul-2017 06:52:12 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[09-Jul-2017 06:52:12 UTC] PHP   6. AppBundle\Controller\SymfController->createGame() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[09-Jul-2017 14:01:12 UTC] PHP Fatal error:  Call to a member function setName() on a non-object in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 292
+[09-Jul-2017 14:01:12 UTC] PHP Stack trace:
+[09-Jul-2017 14:01:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[09-Jul-2017 14:01:12 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[09-Jul-2017 14:01:12 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[09-Jul-2017 14:01:12 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[09-Jul-2017 14:01:12 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[09-Jul-2017 14:01:12 UTC] PHP   6. AppBundle\Controller\SymfController->createGame() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[09-Jul-2017 14:09:38 UTC] PHP Fatal error:  Call to undefined method AppBundle\Entity\Game::setAway() in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 299
+[09-Jul-2017 14:09:38 UTC] PHP Stack trace:
+[09-Jul-2017 14:09:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[09-Jul-2017 14:09:38 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[09-Jul-2017 14:09:38 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[09-Jul-2017 14:09:38 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[09-Jul-2017 14:09:38 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[09-Jul-2017 14:09:38 UTC] PHP   6. AppBundle\Controller\SymfController->createGame() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[09-Jul-2017 14:11:14 UTC] PHP Fatal error:  Call to undefined method AppBundle\Entity\Game::setAway() in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 299
+[09-Jul-2017 14:11:14 UTC] PHP Stack trace:
+[09-Jul-2017 14:11:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[09-Jul-2017 14:11:14 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[09-Jul-2017 14:11:14 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[09-Jul-2017 14:11:14 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[09-Jul-2017 14:11:14 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[09-Jul-2017 14:11:14 UTC] PHP   6. AppBundle\Controller\SymfController->createGame() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[09-Jul-2017 14:11:51 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 314
+[09-Jul-2017 14:11:51 UTC] PHP Stack trace:
+[09-Jul-2017 14:11:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[09-Jul-2017 14:11:51 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[09-Jul-2017 14:11:51 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:168
+[09-Jul-2017 14:11:51 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:119
+[09-Jul-2017 14:11:51 UTC] PHP   5. Symfony\Component\Config\ConfigCache->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:540
+[09-Jul-2017 14:11:51 UTC] PHP   6. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/ubuntu/workspace/var/cache/prod/classes.php:2966
+[09-Jul-2017 14:11:51 UTC] PHP   7. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh() /home/ubuntu/workspace/var/cache/prod/classes.php:2916
+[09-Jul-2017 14:11:51 UTC] PHP   8. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceChecker.php:34
+[09-Jul-2017 14:11:51 UTC] PHP   9. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:45
+[09-Jul-2017 14:11:51 UTC] PHP  10. ReflectionClass->__construct() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[09-Jul-2017 14:11:51 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[09-Jul-2017 14:11:51 UTC] PHP  12. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[09-Jul-2017 14:11:51 UTC] PHP  13. Composer\Autoload\includeFile() /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[09-Jul-2017 14:12:21 UTC] PHP Fatal error:  Call to undefined method AppBundle\Entity\Game::setAway() in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 299
+[09-Jul-2017 14:12:21 UTC] PHP Stack trace:
+[09-Jul-2017 14:12:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[09-Jul-2017 14:12:21 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[09-Jul-2017 14:12:21 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[09-Jul-2017 14:12:21 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[09-Jul-2017 14:12:21 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[09-Jul-2017 14:12:21 UTC] PHP   6. AppBundle\Controller\SymfController->createGame() /home/ubuntu/workspace/var/cache/prod/classes.php:4880

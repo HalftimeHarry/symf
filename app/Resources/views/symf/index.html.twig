@@ -1,0 +1,44 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<h2 class="page-header">All Stadiums</h2>
+<table class="table table-striped"> 
+<thead> 
+<tr> 
+<th>ID</th>
+<th>Stadium Name</th>
+<th>Surface</th>
+<th>Imported Score</th>
+<th>Imported Score Two</th>
+<th>Imported Score Three</th>
+<th>Imported Score Four</th>
+<th>Imported Score Five</th>
+<th>Imported Score Six</th>
+<th>Imported Score Seven</th>
+<th>Calculated Score</th>
+</tr> 
+</thead> 
+<tbody> 
+{% for stadium in stadiums %}
+<tr>
+<th scope="row">{{stadium.id}}</th> 
+<td>{{stadium.name}}</td> 
+<td>{{stadium.surface}}</td> 
+<td>{{stadium.importedScore}}</td> 
+<td>{{stadium.importedScoreTwo}}</td> 
+<td>{{stadium.importedScoreThree}}</td> 
+<td>{{stadium.importedScoreFour}}</td> 
+<td>{{stadium.importedScoreFive}}</td> 
+<td>{{stadium.importedScoreSix}}</td> 
+<td>{{stadium.importedScoreSeven}}</td> 
+<td>{{stadium.calculatedScore}}</td> 
+<td> 
+<a href="/symf/details/{{stadium.id}}" class="btn btn-success">View</a>
+<a href="/symf/edit/{{stadium.id}}" class="btn btn-default">Edit</a>
+<a href="/symf/delete/{{stadium.id}}" class="btn btn-danger">Delete</a>
+</td>
+</tr> 
+{% endfor %}
+</tbody>
+</table>
+{% endblock %}
