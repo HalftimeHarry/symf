@@ -338,3 +338,111 @@
 [09-Jul-2017 14:12:21 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
 [09-Jul-2017 14:12:21 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
 [09-Jul-2017 14:12:21 UTC] PHP   6. AppBundle\Controller\SymfController->createGame() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[24-Jan-2018 00:12:26 UTC] PHP Fatal error:  Cannot use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route as Route because the name is already in use in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 16
+[24-Jan-2018 00:12:26 UTC] PHP Stack trace:
+[24-Jan-2018 00:12:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[24-Jan-2018 00:12:26 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[24-Jan-2018 00:12:26 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:168
+[24-Jan-2018 00:12:26 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:119
+[24-Jan-2018 00:12:26 UTC] PHP   5. Symfony\Component\Config\ConfigCache->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:540
+[24-Jan-2018 00:12:26 UTC] PHP   6. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/ubuntu/workspace/var/cache/prod/classes.php:2966
+[24-Jan-2018 00:12:26 UTC] PHP   7. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh() /home/ubuntu/workspace/var/cache/prod/classes.php:2916
+[24-Jan-2018 00:12:26 UTC] PHP   8. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceChecker.php:34
+[24-Jan-2018 00:12:26 UTC] PHP   9. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:45
+[24-Jan-2018 00:12:26 UTC] PHP  10. ReflectionClass->__construct() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[24-Jan-2018 00:12:26 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[24-Jan-2018 00:12:26 UTC] PHP  12. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[24-Jan-2018 00:12:26 UTC] PHP  13. Composer\Autoload\includeFile() /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[24-Jan-2018 00:12:29 UTC] PHP Fatal error:  Cannot use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route as Route because the name is already in use in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 16
+[24-Jan-2018 00:12:29 UTC] PHP Stack trace:
+[24-Jan-2018 00:12:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[24-Jan-2018 00:12:29 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[24-Jan-2018 00:12:29 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:168
+[24-Jan-2018 00:12:29 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:119
+[24-Jan-2018 00:12:29 UTC] PHP   5. Symfony\Component\Config\ConfigCache->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:540
+[24-Jan-2018 00:12:29 UTC] PHP   6. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/ubuntu/workspace/var/cache/prod/classes.php:2966
+[24-Jan-2018 00:12:29 UTC] PHP   7. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh() /home/ubuntu/workspace/var/cache/prod/classes.php:2916
+[24-Jan-2018 00:12:29 UTC] PHP   8. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceChecker.php:34
+[24-Jan-2018 00:12:29 UTC] PHP   9. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:45
+[24-Jan-2018 00:12:29 UTC] PHP  10. ReflectionClass->__construct() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[24-Jan-2018 00:12:29 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[24-Jan-2018 00:12:29 UTC] PHP  12. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[24-Jan-2018 00:12:29 UTC] PHP  13. Composer\Autoload\includeFile() /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[24-Jan-2018 00:12:47 UTC] PHP Fatal error:  Cannot use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route as Route because the name is already in use in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 16
+[24-Jan-2018 00:12:47 UTC] PHP Stack trace:
+[24-Jan-2018 00:12:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[24-Jan-2018 00:12:47 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[24-Jan-2018 00:12:47 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:168
+[24-Jan-2018 00:12:47 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:119
+[24-Jan-2018 00:12:47 UTC] PHP   5. Symfony\Component\Config\ConfigCache->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:540
+[24-Jan-2018 00:12:47 UTC] PHP   6. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/ubuntu/workspace/var/cache/prod/classes.php:2966
+[24-Jan-2018 00:12:47 UTC] PHP   7. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh() /home/ubuntu/workspace/var/cache/prod/classes.php:2916
+[24-Jan-2018 00:12:47 UTC] PHP   8. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceChecker.php:34
+[24-Jan-2018 00:12:47 UTC] PHP   9. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:45
+[24-Jan-2018 00:12:47 UTC] PHP  10. ReflectionClass->__construct() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[24-Jan-2018 00:12:47 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[24-Jan-2018 00:12:47 UTC] PHP  12. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[24-Jan-2018 00:12:47 UTC] PHP  13. Composer\Autoload\includeFile() /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[24-Jan-2018 00:13:36 UTC] PHP Fatal error:  Cannot use Symfony\Component\HttpFoundation\Request as Request because the name is already in use in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 17
+[24-Jan-2018 00:13:36 UTC] PHP Stack trace:
+[24-Jan-2018 00:13:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[24-Jan-2018 00:13:36 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[24-Jan-2018 00:13:36 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:168
+[24-Jan-2018 00:13:36 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:119
+[24-Jan-2018 00:13:36 UTC] PHP   5. Symfony\Component\Config\ConfigCache->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:540
+[24-Jan-2018 00:13:36 UTC] PHP   6. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/ubuntu/workspace/var/cache/prod/classes.php:2966
+[24-Jan-2018 00:13:36 UTC] PHP   7. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh() /home/ubuntu/workspace/var/cache/prod/classes.php:2916
+[24-Jan-2018 00:13:36 UTC] PHP   8. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceChecker.php:34
+[24-Jan-2018 00:13:36 UTC] PHP   9. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:45
+[24-Jan-2018 00:13:36 UTC] PHP  10. ReflectionClass->__construct() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[24-Jan-2018 00:13:36 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[24-Jan-2018 00:13:36 UTC] PHP  12. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[24-Jan-2018 00:13:36 UTC] PHP  13. Composer\Autoload\includeFile() /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[24-Jan-2018 06:27:12 UTC] PHP Fatal error:  Cannot use object of type GuzzleHttp\Psr7\Stream as array in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 31
+[24-Jan-2018 06:27:12 UTC] PHP Stack trace:
+[24-Jan-2018 06:27:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[24-Jan-2018 06:27:12 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[24-Jan-2018 06:27:12 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[24-Jan-2018 06:27:12 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[24-Jan-2018 06:27:12 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[24-Jan-2018 06:27:12 UTC] PHP   6. AppBundle\Controller\SymfController->getJobs() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[24-Jan-2018 06:55:37 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 32
+[24-Jan-2018 06:55:37 UTC] PHP Stack trace:
+[24-Jan-2018 06:55:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[24-Jan-2018 06:55:37 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[24-Jan-2018 06:55:37 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[24-Jan-2018 06:55:37 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[24-Jan-2018 06:55:37 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[24-Jan-2018 06:55:37 UTC] PHP   6. AppBundle\Controller\SymfController->getJobs() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[24-Jan-2018 06:56:27 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 32
+[24-Jan-2018 06:56:27 UTC] PHP Stack trace:
+[24-Jan-2018 06:56:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[24-Jan-2018 06:56:27 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[24-Jan-2018 06:56:27 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[24-Jan-2018 06:56:27 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[24-Jan-2018 06:56:27 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[24-Jan-2018 06:56:27 UTC] PHP   6. AppBundle\Controller\SymfController->getJobs() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[24-Jan-2018 07:46:44 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 34
+[24-Jan-2018 07:46:44 UTC] PHP Stack trace:
+[24-Jan-2018 07:46:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[24-Jan-2018 07:46:44 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[24-Jan-2018 07:46:44 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[24-Jan-2018 07:46:44 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[24-Jan-2018 07:46:44 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[24-Jan-2018 07:46:44 UTC] PHP   6. AppBundle\Controller\SymfController->getJobs() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[24-Jan-2018 08:19:03 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 32
+[24-Jan-2018 08:19:03 UTC] PHP Stack trace:
+[24-Jan-2018 08:19:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[24-Jan-2018 08:19:03 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[24-Jan-2018 08:19:03 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[24-Jan-2018 08:19:03 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[24-Jan-2018 08:19:03 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[24-Jan-2018 08:19:03 UTC] PHP   6. AppBundle\Controller\SymfController->getJobs() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[24-Jan-2018 08:19:20 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ubuntu/workspace/src/AppBundle/Controller/SymfController.php on line 32
+[24-Jan-2018 08:19:20 UTC] PHP Stack trace:
+[24-Jan-2018 08:19:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[24-Jan-2018 08:19:20 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:20
+[24-Jan-2018 08:19:20 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[24-Jan-2018 08:19:20 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4835
+[24-Jan-2018 08:19:20 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/prod/classes.php:4880}() /home/ubuntu/workspace/var/cache/prod/classes.php:4880
+[24-Jan-2018 08:19:20 UTC] PHP   6. AppBundle\Controller\SymfController->getJobs() /home/ubuntu/workspace/var/cache/prod/classes.php:4880

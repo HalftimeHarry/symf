@@ -13,9 +13,31 @@ use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use AppBundle\Utils\Adder;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
+use Symfony\Component\HttpFoundation\Response;
+use Psr\Http\Message\ResponseInterface;
+use GuzzleHttp\Client;
 
 class SymfController extends Controller
 {
+    /**
+     * @Route("symf/schedule", name="symf_schedule")
+    */
+    public function getJobs() {
+    // Create a client with a base URI
+    $client = new \GuzzleHttp\Client(['base_uri' => 'http://api.sportradar.us/football-t1/american/en/schedules/2018-01-14/']);
+    // Send a request to http://api.sportradar.us/football-t1/american/en/schedules/2018-01-14/results.json?api_key=6ps4fbsxgmqbapmcs687vsmz
+    $response = $client->request('GET', 'results.json?api_key=6ps4fbsxgmqbapmcs687vsmz');
+    $d = $response->getBody(); 
+    $data = json_decode($d);
+    dump($data->results[0]->sport_event->competitors[0]->name);
+    $h = ($data->results[0]->sport_event->competitors[0]->name);
+    // dump($response);
+    // dump($client);
+        return $this->render('symf/schedule.html.twig', array( 
+        'sport_event'=> $h
+      
+       ));
+    }
     /**
      * @Route("/", name="symf_list")
      */
